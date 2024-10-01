@@ -13,7 +13,7 @@ export const metadata = {
   icons: "./favicon.ico",
   };
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />

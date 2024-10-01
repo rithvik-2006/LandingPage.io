@@ -3,6 +3,7 @@ import { Inter as FontSans } from "next/font/google"
 
 import { cn } from "@/lib/utils"
 import { icons } from "lucide-react";
+import { Root } from "postcss";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -13,7 +14,7 @@ export const metadata = {
   icons: "./favicon.ico",
   };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }:any) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />

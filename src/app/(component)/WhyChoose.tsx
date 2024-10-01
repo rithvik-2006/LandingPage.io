@@ -11,7 +11,7 @@ export default function WhyChoose() {
         <section className="w-full py-12 md:py-24 lg:py-32 text-white bg-gray-900">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
-              Why Choose Our Website Builder?
+              Why Choose Me to build your dream website
             </h2>
             <div className="grid gap-6 lg:grid-cols-3 lg:gap-12">
               <div className="flex flex-col items-center space-y-2 text-center">

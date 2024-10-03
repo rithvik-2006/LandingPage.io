@@ -42,7 +42,7 @@ export default function Pricing() {
               
 
               </div>
-              <div className="flex flex-col p-6 bg-background dark:bg-gray-900 shadow-lg rounded-lg justify-between ">
+              <div className="flex flex-col p-6 bg-background dark:bg-gray-900 shadow-lg rounded-lg justify-between border">
                 <div>
                   <h3 className="text-2xl font-bold text-center">Pro</h3>
                   <div className="mt-4 text-center text-gray-600 dark:text-gray-400">
